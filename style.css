@@ -1,0 +1,54 @@
+:root {
+    --body-bg-color: #272727;
+    --white: #ffffff;
+    --blue: #3052FF;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-bg-color);
+    color: var(--white);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_instagram {
+    font-weight: 300;
+
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.links_button {
+    text-decoration: none;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 2px solid var(--blue);
+    color: var(--white);
+    width: 326px;
+    height: 49px;
+
+    margin: 8px;
+}
+
